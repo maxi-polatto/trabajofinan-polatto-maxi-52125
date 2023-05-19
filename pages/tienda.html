@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tienda</title>
+    <link rel="stylesheet" href="../css/stylep2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav-bar">
+        <ul>
+          <img src="../img/todos los dia(1).png" alt="" />
+          <li><a href="#">TIENDA </a></li>
+          <li>
+            <div>
+              <input
+                id="busqueda"
+                type="text"
+                placeholder="Buscar producto..."
+              />
+
+              <button id="buscar" style="float: right">Buscar</button>
+              <li>
+                <a href="carrito.html" id="cart-icon">
+                  <img src="/img/cart.png" alt="Carrito" />
+                  <span id="cart-count"></span>
+                </a>
+              </li>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <div id="contenedor-productos" class="contenedor-tienda"></div>
+
+    <script src="../js/busqueda.js"></script>
+    <script src="../js/tienda.js"></script>
+    <script src="../js/cart.js"></script>
+  </body>
+</html>
